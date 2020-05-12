@@ -45,11 +45,12 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  # since: 2005
 
   # Icon between year and copyright info.
-  icon: user
-
+  #icon: user
+  icon: heart
+ 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
   # -------------------------------------------------------------
@@ -97,8 +98,9 @@ menu:
   tags: /tags/|| tags
   categories: /categories/|| th
   archives: /archives/|| archive
-  schedule: /schedule/|| calendar
-  book: /|| book
+  #schedule: /schedule/|| calendar
+  problem: /problem/|| modx
+  
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
