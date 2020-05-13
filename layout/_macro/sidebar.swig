@@ -82,7 +82,9 @@
             {% endif %}
 
           </nav>
-
+		  
+		  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1372060183&auto=1&height=66"></iframe>
+		 
           {% if theme.rss %}
             <div class="feed-link motion-element">
               <a href="{{ url_for(theme.rss) }}" rel="alternate">
@@ -171,5 +173,12 @@
       {% endif %}
 
     </div>
+    
+	
   </aside>
+  
 {% endmacro %}
+ 
+
+
+
