@@ -82,8 +82,7 @@
             {% endif %}
 
           </nav>
-		  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=862244862&auto=1&height=66"></iframe>
-		 
+		
           {% if theme.rss %}
             <div class="feed-link motion-element">
               <a href="{{ url_for(theme.rss) }}" rel="alternate">
@@ -138,7 +137,11 @@
 
           {% include '../_custom/sidebar.swig' %}
         </div>
+	    <br>
       </section>
+
+
+	  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=2&id=862244862&auto=1&height=32"></iframe>
 
       {% if display_toc and toc(page.content).length > 1 %}
       <!--noindex-->
@@ -170,14 +173,17 @@
           {% endif %}
         </div>
       {% endif %}
+	  
 
+	
+		 
     </div>
     
-	
+	   
   </aside>
   
 {% endmacro %}
  
-
+    
 
 

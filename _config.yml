@@ -189,7 +189,7 @@ sidebar:
   #display: always
   #display: hide
   #display: remove
-
+ 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
 
@@ -806,7 +806,7 @@ vendors:
   # https://github.com/revir/need-more-share2
   needMoreShare2:
 
-
+evanyou: true
 # Assets
 css: css
 js: js
